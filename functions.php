@@ -1,5 +1,8 @@
-Custom product meta field
--------------------------
+<?php
+
+/**
+* Custom product meta field
+*/
 
 /**
 * Display custom product meta field in cart and checkout pages
@@ -42,8 +45,10 @@ function display_admin_order_item_custom_button( $item_id, $item, $product ){
 	echo '<p><span>ISBN:</span> ' . $custom_field_variable . '</p>';
 }
 
-Custom product taxonomy
------------------------
+
+/**
+* Custom product taxonomy
+*/
 
 /**
 * Display custom product texonomoy in cart and checkout pages
